@@ -15,7 +15,7 @@ check.addEventListener("click",checkfunction);
 
 function checkfunction(){
   let userAnswer=Number(document.querySelector("#userInput").value);
-  if(userAnswer>0 && userAnswer<21){
+  if(userAnswer>0 && userAnswer<16){
     if(score>0){
      if(userAnswer==secretNumber){
        msg.textContent="Congratulations🤝 Correct Answer👏!!";
