@@ -55,7 +55,7 @@ button{
   float: right;
   font-size: 115%;
   margin-top: 2rem;
-  margin-right: 15rem;
+  margin-right: 10rem;
 }
 #userInput{
   color: var(--primary);
