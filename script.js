@@ -51,7 +51,6 @@ again.addEventListener('click',function(){
   document.body.style.backgroundColor="var(--primary)";
   msg.style.fontSize="105%";
   secretNumber=Math.trunc(Math.random()*15) + 1;
-  secret.textContent = secretNumber;
   msg.textContent="Start Guessing....";
   document.querySelector("#userInput").value='';
   score=20;
