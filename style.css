@@ -1,0 +1,67 @@
+:root{
+  --primary:rgb(2, 23, 54);
+  --secondary:rgb(253, 253, 253);
+}
+
+body{
+  font-size: 150%;
+  font-family: 'Times New Roman', Times, serif;
+  color:var(--secondary);
+  background-color:var(--primary);
+  
+}
+
+.header img{
+   display: inline;
+   max-width: 15%;
+   min-width: 7rem;
+   margin-left: 40%;
+}
+.rules{
+  float: right ;
+  margin-right: 8rem;
+  margin-top: 15px;
+  
+}
+.rule-heading{
+  font-size: 1 rem;
+  color: var(--primary);
+  background-color: var(--secondary);
+  padding:10px;
+  border-radius: 0.5rem;
+
+
+}
+.header h1{
+  text-align: center;
+  
+}
+.header button{
+  margin-left:7rem;
+}
+button{
+  font-size: 105%;
+  background-color: var(--secondary);
+  color: var(--primary);
+  border-radius: 0.5rem;
+  padding: 10px;
+  }
+.left{
+  float: left;
+  font-size: 115%;
+  margin-left:7rem ;
+}
+.right{
+  float: right;
+  font-size: 115%;
+  margin-top: 2rem;
+  margin-right: 15rem;
+}
+#userInput{
+  color: var(--primary);
+  font-size: 105%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+  height: 3rem;
+}

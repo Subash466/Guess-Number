@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find My Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div>
+      <h1>Find Hidden Number!</h1>
+      <button class="again">Play Again! </button>
+      <div class="rules">
+        <span class="rule-heading">Rules :</span>
+        <p>1-Guess the Hidden number it's between 1 to 15</p>
+        <p>2-Initialy you get 20 points</p>
+        <p>3-For every wrong guess you get 2 negative points</p>
+        <p>4-If your points less then 0,your is game over!</p>
+      </div> 
+    </div>
+    <img  src="guess.png" alt="header-image">
+    <div class="secret">?</div>
+  </div>
+  <div class="left">
+    <p>Enter Guess number (1 to 15):</p>
+    <input type="number" name="input" id="userInput"><br>
+    <button class="check"> Check</button>
+  </div>
+  <div class="right">
+    <span class="msg"> Start guessing ....</span>
+    <p>⭐️Your Points: <span class="your-score"></span></p>
+    <p>🥇Highest Points: <span class="high-score"></span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
