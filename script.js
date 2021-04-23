@@ -1,8 +1,6 @@
 "use strict";
 
 let secretNumber=Math.trunc(Math.random()*15) + 1;
-const secret=document.querySelector(".secret");
-secret.textContent = secretNumber;
 const check=document.querySelector(".check");
 const msg=document.querySelector(".msg");
 const highScore=document.querySelector(".high-score");
